@@ -107,7 +107,7 @@ export default function Home() {
           href="/">Home</a>
         <a
           className="px-2 lg:px-6 py-2 md:px-3 text-sm text-regent-900 font-medium hover:text-regent-900/70"
-          href="/style-guide">
+          href="/contact">
           Contact</a>
 
         <div className="inline-flex items-center gap-2 list-none lg:ml-auto">
