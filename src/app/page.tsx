@@ -1,8 +1,32 @@
 import Image from "next/image";
 
+
 export default function Home() {
+
   return (
  <div>
+
+
+<div id="newsletter-banner" className="sticky top-0 start-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-regent-500  dark:bg-gray-700 dark:border-gray-600">
+    <div className="flex items-center flex-shrink-0 w-full mx-auto sm:w-auto">
+        <form className="flex flex-col items-center w-full md:flex-row">
+            <label htmlFor="email" className="flex-shrink-0 mb-2 me-auto text-sm font-medium text-regent-900 md:mb-0 md:me-4 dark:text-gray-400 md:m-0">Sign up for the IOS app</label>
+            <iframe src="https://embeds.beehiiv.com/d6d9da1b-5cce-4d86-94da-b57bb4b1b632?slim=true" data-test-id="beehiiv-embed" height="52"  style={{margin: 0, borderRadius:" 0px !important", backgroundColor: "transparent"}}></iframe>
+
+        </form>
+    </div>
+    <div className="flex items-center absolute top-2.5 end-2.5 md:relative md:top-auto md:end-auto">
+        <button data-dismiss-target="#newsletter-banner" type="button" className="flex-shrink-0 inline-flex justify-center w-7 h-7 items-center text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 dark:hover:bg-gray-600 dark:hover:text-white">
+            <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+            </svg>
+            <span className="sr-only">Close banner</span>
+        </button>
+    </div>
+</div>
+
+
+  <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
   <section className="bg-regent-500 overflow-hidden relative border-b border-black/5">
   <div className="w-full mx-auto max-w-7xl relative">
     <div
