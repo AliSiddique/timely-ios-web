@@ -26,7 +26,6 @@ export default function Home() {
 </div>
 
 
-  <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
   <section className="bg-regent-500 overflow-hidden relative border-b border-black/5">
   <div className="w-full mx-auto max-w-7xl relative">
     <div
@@ -35,7 +34,7 @@ export default function Home() {
         className="flex flex-row items-center justify-between text-regent-900 text-sm lg:justify-start">
         <a href="/">
           <div className="text-xl inline-flex items-center">
-            <span>
+            {/* <span>
               <svg
                 className="w-6 h-6"
                 viewBox="0 0 147 148"
@@ -98,7 +97,8 @@ export default function Home() {
                   fill="currentColor"
                   fill-opacity="0.2"></path>
               </svg>
-            </span>
+            </span> */}
+            <img src="/pomodorotimer.png" alt="logo" className="w-6 h-6 rounded-full" />
             <span className="ml-3">Timely</span>
           </div>
         </a>
@@ -153,24 +153,28 @@ export default function Home() {
         <p
           className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl tracking-tighter font-medium text-regent-900">
           Exciting new features <span className="block"
-            >now available at Snow Peak</span >
+            >now available at Timely</span >
         </p><p className="max-w-xl mt-4 text-lg text-regent-900/80 mx-auto">
-          Discover how Snow Peak is revolutionizing your experience
+          Sign up for the wait list and be the first to know when we launch.
         </p>
       </div>
-    </div><div className="relative w-full mx-auto max-w-7xl items-center mt-12">
-      <img alt="" className="relative w-full object-cover" src="/images/ui13.png" />
+    </div><div className="relative w-full mx-auto max-w-7xl items-center mt-12 flex">
+      <img alt="" className="relative w-full object-contain h-96" src="/StudyTimetable.png" />
+      <img alt="" className="relative w-full object-contain h-96" src="/timer.png" />
+      <img alt="" className="relative w-full object-contain h-96" src="/Settings.png" />
+      <img alt="" className="relative w-full object-contain h-96" src="/launch.png" />
+
     </div>
   </div>
 </section>
+{/* 
 <section>
   <div
     className="max-w-7xl px-8 md:px-12 lg:px-24 mx-auto py-12 lg:py-24 justify-center">
     <div className="text-center justify-center lg:justify-start">
       <span
         className="text-base items-center inline-flex uppercase tracking-wide font-medium text-regent-600">
-        Our beloved customers</span
-      >
+        Our beloved customers</span>
     </div>
     <div
       className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
@@ -834,7 +838,7 @@ export default function Home() {
       </div>
     </div>
   </div>
-</footer>
+</footer> */}
 
  </div>
   );
